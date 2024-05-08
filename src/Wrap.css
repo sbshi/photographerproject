@@ -1,0 +1,97 @@
+.wrap-row{
+    display: flex;
+    flex-wrap: wrap;
+    width: 1200px;
+    margin-left: 150px;
+    justify-content: space-evenly;
+}
+.one{
+    background-image: url(./assets/firstblock.png);
+}
+.two{
+    background-image: url(./assets/secondblock.png);
+}
+.three{
+    background-image: url(./assets/thirdblock.png);
+}
+.four{
+    background-image: url(./assets/fourthblock.png);
+}
+.five{
+    background-image: url(./assets/fifthblock.png);
+}
+.six{
+    background-image: url(./assets/sixthblock.png);
+}
+.seven{
+    background-image: url(./assets/seventhblock.png);
+}
+.ate{
+    background-image: url(./assets/eighthblock.png);
+}
+.one, .two, .three, .four, .five, .six, .seven, .ate{
+    height: 370px;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+    width: 265px;
+    border-radius: 15px;
+    background-size: cover;
+}
+.five, .seven, .six, .ate{
+    margin-top: 30px;
+}
+@media (max-width: 1320px) {
+    .wrap-row{
+        margin-left: 20px;
+        width: 1100px;
+    }
+}
+@media (max-width: 1120px) {
+    .wrap-row{
+        width: 850px;
+        margin-left: 100px;
+    }
+    .four{
+        margin-top: 30px;
+    }
+}
+@media (max-width: 950px) {
+    .one, .two, .three, .four, .five, .six, .seven, .ate{
+        width: 215px;
+        height: 320px;
+    }
+    .wrap-row{
+        width: 700px;
+    }
+}
+@media (max-width: 800px) {
+    .wrap-row{
+        width: 500px;
+    }
+    .three{
+        margin-top: 30px;
+    }
+}
+@media (max-width: 600px) {
+    .wrap-row{
+        margin-left: 60px; 
+        width: 475px;
+    }
+    .one, .two, .three, .four, .five, .six, .seven, .ate{
+        width: 175px;
+        height: 230px;
+    }
+}
+@media (max-width: 530px) {
+    .wrap-row{
+        margin-left: 50px;
+        width: 380px;
+    }
+}
+@media (max-width: 430px) {
+    .wrap-row{
+        width: 310px;
+    }
+    .two{
+        margin-top: 30px;
+    }
+}

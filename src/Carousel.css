@@ -1,0 +1,64 @@
+.firstcar, .secondcar, .thirdcar{
+    width: 460px !important;
+    height: 315px;
+    margin-left: 500px;
+    margin-top: 50px;
+    border-radius: 30px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.firstcar{
+    background-image: url(./assets/firstcar.png);
+}
+.secondcar{
+    background-image: url(./assets//secondcar.png);
+}
+.thirdcar{
+    background-image: url(./assets/thirdcar.png);
+}
+.shami{
+    width: 100%;
+    overflow: hidden;
+}
+@media (max-width: 1120px) {
+    .firstcar, .secondcar, .thirdcar{
+        width: 400px;
+        height: 270px;
+        margin-left: 375px;
+    }
+}
+@media (max-width: 950px) {
+    .firstcar, .secondcar, .thirdcar{
+        margin-left: 300px;
+        width: 350px !important;
+        height: 250px;
+    }
+}
+@media (max-width: 800px) {
+    .firstcar, .secondcar, .thirdcar{
+        margin-left: 255px;
+        width: 300px !important;
+        height: 200px;
+    }
+}
+@media (max-width: 600px) {
+    .firstcar, .secondcar, .thirdcar{
+        margin-left: 190px;
+        width: 250px !important;
+        height: 160px;
+    }
+}
+@media (max-width: 530px) {
+    .firstcar, .secondcar, .thirdcar{
+        margin-left: 150px;
+        width: 220px !important;
+        height: 150px;
+    }
+}
+@media (max-width: 430px) {
+    .firstcar, .secondcar, .thirdcar{
+        margin-left: 150px;
+        width: 155px !important;
+        height: 100px;
+    }
+}

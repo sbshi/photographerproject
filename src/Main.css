@@ -1,0 +1,703 @@
+@import url('https://fonts.cdnfonts.com/css/lota-grotesque-alt-1');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lota Grotesque', sans-serif;
+}
+.header{
+    background-image: url(./assets/main-bg.svg);
+    height: 600px;
+}
+.App{
+    background-color: rgb(247,247,247);
+}
+.pages{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 30px 0 0 180px;
+}
+h1{
+    font-size: 60px;
+    width: 490px;
+    margin-left: 80px;
+    margin-top: 100px;
+}
+.super{
+    display: flex;
+    color: white;
+    justify-content: space-evenly;
+    padding-top: 30px;
+}
+h2{
+    color: black;
+    font-size: 52px;
+}
+.tarif{
+    display: flex;
+    justify-content: space-evenly;
+    height: 483px;
+}
+.tarif-desc{
+    color: #00000080;
+    font-size: 14px;
+}
+.column{
+    display: flex;
+    flex-direction: column;
+    height: 323px;
+    margin-top: 100px;
+    justify-content: space-evenly;
+}
+.btn{
+    background-color: #F35B0C;
+    color: white;
+    width: 193px;
+    height: 52px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 30px;
+}
+.hiss{
+    margin-top: 100px;
+}
+.paket{
+    height: 767px;
+}
+.paket-name{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 100px;
+}
+.paket-more1, .paket-more2{
+    color: #818181;
+    font-weight: 700;
+    padding-top: 15px;
+}
+.paket-more2{
+    margin-left: 15px;
+}
+.paket-desc{
+    color: black;
+    font-size: 32px;
+    font-weight: 800;
+}
+.two-paket{
+    background-color: rgb(241,241,241);
+    height: 680px;
+    width: 733px;
+    display: flex;
+    margin-left: 110px;
+    margin-top: 30px;
+}
+.paket-first, .paket-second{
+    width: 356px;
+    height: 630px;
+    background-color: white;
+    border-radius: 10px;
+    margin-left: 5px;
+    display: flex;
+    flex-direction: column;
+}
+.paket-second{
+    margin-left: 10px;
+}
+.tarif-desc{
+    display: flex;
+}
+.tarif-icons, .tarif-name{
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    margin-left: 20px;
+}
+.tarif-icons{
+    height: 250px;
+}
+.tarif-name{
+    height: 200px;
+    margin-top: 10px;
+}
+.contain{
+    font-weight: bold;
+    color: black;
+    margin-top: 25px;
+    font-size: 16px;
+}
+.contain-desc, .contain-desc2{
+    color: #b2b2b2;
+    font-size: 14px;
+}
+.contain-desc2{
+    margin-left: 40px;
+}
+.tarif-img{
+    display: flex;
+    position: relative;
+    left: 255px;
+    top: -70px;
+}
+.internet-paket{
+    display: flex;
+    flex-direction: column;
+    margin-left: 90px;
+    margin-top: 30px;
+}
+.row-paket{
+    display: flex;
+}
+.internet-name{
+    width: 450px;
+    display: flex;
+}
+.btns{
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 100px;
+}
+.btn-first, .btn-second{
+    width: 150px;
+    height: 40px;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 700;
+}
+.btn-first{
+    background-color: #F35B0C;
+    color: white;
+}
+.btn-second{
+    background-color: #F35B0C1A ;
+    color: #F35B0C;
+}
+.nomer{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 40px;
+}
+.column-nomer{
+    display: flex;
+    flex-direction: column;
+    width: 490px;
+}
+.nomer-desc{
+    color: black;
+    font-size: 52px;
+    font-weight: 700;
+    margin-top: 20px;
+}
+.btn-nomer{
+    background-color: #F35B0C;
+    width: 192px;
+    height: 52px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px;
+    font-size: 16px;
+    font-weight: 700;
+    margin-top: 80px;
+}
+.tetbiq-name{
+    font-size: 32px;
+    color: black;
+    font-weight: 800;
+}
+.row-tetbiq{
+    display: flex;
+    justify-content: space-between;
+    width: 1150px;
+}
+.tetbiq{
+    padding-left: 200px;
+    padding-top: 170px;
+}
+.tetbiq-img{
+    width: 1000px;
+    height: 230px;
+    margin-top: 20px;
+}
+.phone-tetbiq{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 80px;
+}
+.column-phone{
+    display: flex;
+    flex-direction: column;
+    height: 687px;
+}
+.phone-name{
+    font-size: 52px;
+    color: black;
+    width: 320px;
+    margin-top: 45px;
+    font-weight: 700;
+}
+.phone-desc{
+    font-size: 14px;
+    color: #818181;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+.row-phone{
+    display: flex;
+}
+.info-row{
+    display: flex;
+    margin-top: 90px;
+}
+.apple, .google{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 125px;
+    height: 40px;
+    background-color: white;
+    border: 1px solid #818181;
+    border-radius: 30px;
+}
+.google{
+    margin-left: 10px;
+}
+.icon-desc{
+    font-weight: 700;
+    font-size: 14px;
+}
+.info{
+    font-size: 12px;
+    color: #818181;
+    width: 322px;
+    margin-left: 16px;
+}
+.column-card{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.column-cards{
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+}
+.purple-card{
+    margin-top: -10px;
+    width: 360px;
+    height: 160px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(92,36,131);
+}
+.card-name{
+    font-size: 16px;
+    font-weight: 700;
+    color: white;
+}
+.card-desc{
+    font-size: 14px;
+    font-weight: 700;
+    color: #FFFFFF99;
+    margin-top: 5px;
+}
+.wifi, .sim{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.wifi-info, .sim-info{
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+}
+.wifi-name, .sim-name{
+    font-size: 16px;
+    font-weight: 700;
+    color: black;
+}
+.wifi-desc, .sim-desc{
+    font-size: 14px;
+    font-weight: 500;
+    color: rgb(129,129,129);
+    margin-top: 5px;
+}
+.sim-icon{
+    margin-left: 30px;
+}
+.card{
+    display: flex;
+    justify-content: space-evenly;
+    height: 660px;
+    padding-top: 91px;
+}
+.video{
+    width: 100%;
+}
+.video-name{
+    font-size: 52px;
+    color: white;
+    font-weight: 700;
+    position: relative;
+    bottom: 350px;
+    margin-left: 50px;
+    width: 500px;
+}
+.video-desc{
+    margin-left: 50px;
+    bottom: 350px;
+    position: relative;
+    font-size: 14px;
+    color: #818181;
+}
+.card-column{
+    display: flex;
+    flex-direction: column;
+}
+.hiss{
+    width: 551px;
+    height: 323px; 
+}
+.bank-card{
+    font-size: 32px;
+    width: 260px;
+    font-weight: 800;
+}
+.mobile-number, .manat{
+    width: 320px;
+    height: 50px;
+    margin-top: 10px;
+    border-radius: 12px;
+    border: 1px solid #ddd;
+    padding: 12px 16px;
+    font-size: 16px;
+    font-weight: 700;
+    color: black;
+}
+.tetbiq-img3{
+    display: none;
+}
+.manat{
+    background-image: url('./assets/manat.png');
+    background-size: 25px;
+    padding-left: 40px; 
+    background-repeat: no-repeat;
+    background-position: 10px center;
+}
+.card-column h5, .ode{
+    margin-top: 25px;
+}
+.card-img{
+    margin-top: 50px;
+}
+.ayliq, .gunluk{
+    width: 370px;
+     height: 280px; 
+}
+.card-position{
+    width: 383px;
+    height: 45px;
+    border-radius: 12px;
+    border: 1px solid #ddd;
+    padding: 12px 150px;
+    margin-left: calc(100% - 675px);
+    position: relative;
+    top: -337px;
+    font-size: 16px;
+    font-weight: 700;
+    color: black;
+}
+.tetbiq-img2{
+    display: none;
+}
+
+@media (max-width: 1300px) {
+    .two-paket{
+        margin-left: 0px;
+    }
+    .row-tetbiq{
+        margin-left: -185px;
+    }
+    .card-position{
+        margin-left: calc(100% - 590px);  
+    }
+}
+@media (max-width: 1200px) {
+    .paket-more1{
+        display: none;
+    }
+    .tetbiq-img{
+        margin-left: -100px;
+    }
+    .row-tetbiq{
+        width: 650px;
+    }
+}
+@media (max-width: 1100px) {
+    .row-paket{
+        flex-direction: column;
+    }
+    .two-paket{
+        margin-left: 200px;
+    }
+    .nomer{
+        margin-top: 700px;
+    }
+    .tetbiq-img{
+        margin-left: -150px;
+    }
+    .tarif-img{
+        display: none;
+    }
+}
+@media (max-width: 1000px) {
+    .tarif{
+        flex-direction: column;
+        margin-left: 200px;
+        margin-bottom: 300px;
+    }
+    .video-name{
+        bottom: 200px;
+    }
+    .video-desc{
+        bottom: 200px;
+    }
+    .btn{
+        margin-top: 30px;
+    }
+    .two-paket{
+        margin-left: 135px;
+    }
+    .nomer{
+        flex-direction: column;
+        margin-left: 200px;
+    }
+    .esim{
+        width: 550px;
+        height: 323px;
+    }
+    .column-card{
+        display: none;
+    }
+    .tetbiq-img{
+        display: none;
+    }
+    .card-img{
+        display: none;
+    }
+    .card-position{
+        display: none;
+    }
+    .tetbiq-img2{
+        display: block;
+        width: 750px;
+        height: 215px;
+        margin: 0;
+    }
+    .tetbiq{
+        padding-left: 80px;
+    }
+    .tetbiq-name{
+        margin-left: 120px;
+    }
+    .supertarif{
+        width: 450px;
+        height: 400px;
+        margin-top: 50px;
+    }
+}
+@media (max-width: 900px) {
+    .two-paket{
+        margin-left: 50px;
+    }
+    .tetbiq-img2{
+        margin-left: -50px;
+    }
+    .super{
+        flex-direction: column;
+    }
+    .supertarif{
+        margin-top: -65px;
+    }
+    h1{
+        margin-top: 20px;
+    }
+    .pages{
+        padding-left: 35px;
+    }
+    .internet-name{
+        display: none;
+    }
+    .paket-second{
+        display: none;
+    }
+    .two-paket{
+        width: 365px;
+    }
+    .row-paket{
+        align-items: center;
+    }
+    .nomer{
+        margin-left: 100px;
+    }
+}
+@media (max-width: 800px) {
+    .tetbiq-img2{
+        width: 575px;
+        height: 155px;
+    }
+    .tarif{
+        margin-left: 50px;
+    }
+}
+@media (max-width: 700px) {
+    .phone-tetbiq{
+        flex-direction: column;
+        align-items: center;
+    }
+    .esim{
+        margin-left: -50px;
+    }
+}
+@media (max-width: 600px) {
+    .tetbiq-img2{
+        display: none; 
+    }
+    .tetbiq-img3{
+        display: block;
+        height: 345px;
+        width: 500px;
+        margin-left: -50px;
+    }
+    .esim{
+        margin-left: -90px;
+    }
+    .hiss{
+        margin-left: -30px;
+        width: 450px;
+        height: 253px;
+    }
+    .column-nomer{
+        margin-left: -50px;
+    }
+    .a, .b, .c, .d, .e{
+        display: none;
+    }
+}
+@media (max-width: 550px) {
+    .tetbiq-img3{
+        width: 400px;
+        height: 300px;
+    }
+    .video, .video-desc, .video-name{
+        display: none;
+    }
+    .tetbiq-name{
+        font-size: 24px;
+    }
+    .row-tetbiq{
+        width: 100%;
+    }
+    h1{
+        margin-left: 15px;
+    }
+    .esim{
+        width: 450px;
+        height: 253px;
+    }
+}
+@media (max-width: 500px) {
+    h1{
+        font-size: 40px;
+        width: 350px;
+    }
+    .column-nomer{
+        width: 300px;
+    }
+    .hiss{
+        width: 350px;
+        margin-left: 0;
+    }
+    .paket-desc{
+        font-size: 25px;
+    }
+    .row-paket{
+        margin-left: -40px;
+    }
+    .internet-paket{
+        margin-left: 45px;
+    }
+    .nomer-desc{
+        font-size: 42px;
+        width: 350px;
+    }
+    .esim{
+        width: 385px;
+        height: 222px;
+    }
+    .supertarif{
+        width: 400px;
+        height: 350px;
+        margin-top: -20px;
+    }
+}
+@media (max-width: 450px) {
+    .tetbiq-img3{
+    width: 370px;
+    height: 264px;
+    }
+    .row-tetbiq{
+        width: 400px;
+    }
+}
+@media (max-width: 400px) {
+    .row{
+        width: 0px;
+    }
+    .supertarif{
+        width: 350px;
+        height: 300px;
+        margin-top: 0;
+    }
+    .hiss{
+        margin-left: -15px;
+    }
+    .esim{
+        width: 350px;
+        height: 200px;
+    }
+    .tetbiq-img3{
+        width: 320px;
+        height: 225px;
+    }
+    .nomer-desc{
+        width: 330px;
+        font-size: 40px;
+    }
+    .hiss{
+        width: 300px;
+    }
+    .ayliq, .gunluk{
+        width: 320px;
+        height: 230px;
+    }
+}
+@media (max-width: 400px) {
+    .nomer-desc{
+        font-size: 35px;
+        width: 300px;
+    }
+    .two-paket{
+        width: 100%;
+        margin-left: 0;
+    }
+    .paket-first{
+        margin-left: 45px;
+    }
+}
+

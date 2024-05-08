@@ -1,0 +1,246 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+.footer{
+    background-color: black;
+}
+.row-footer{
+    display: flex;
+    justify-content: space-evenly;
+    width: 1200px;
+    padding-top: 50px;
+    margin-left: 165px;
+    border-bottom: 0.001em solid rgb(147,147,147);
+    padding-bottom: 50px;
+}
+.azer-footer{
+    display: flex;
+    flex-direction: column;
+}
+.language{
+    margin-top: 20px;
+}
+.name{
+    font-size: 14px;
+    font-weight: 700;
+    color: white;
+}
+.desc1, .desc2{
+    font-size: 12px;
+    color: #b2b2b2;
+    margin-top: 7px;
+}
+.shirket, .xidmet{
+    display: flex;
+    flex-direction: column;
+}
+.desc1{
+    margin-top: 15px;
+}
+.footer-info{
+    display: flex;
+    color: rgb(178,178,178);
+    font-size: 12px;
+    width: 1350px;
+    margin-left: -20px;
+    margin-top: 25px;
+    justify-content: space-evenly;
+}
+.app-icons{
+    display: flex;
+    justify-content: space-evenly;
+    width: 960px;
+    margin-top: 10px;
+}
+.apple-gray, .google-gray, .app-gallery, .app-gallerys{
+    color: #b2b2b2;
+    display: flex;
+    width: 140px;
+    height: 40px; 
+    border-radius: 30px;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: rgb(38,38,38);
+    font-size: 14px;
+}
+.yenilik{
+    margin-right: 20px;
+}
+.kabinet{
+    margin-right: 95px;
+}
+.apple-gray{
+    margin-left: 520px;
+}
+.gray-icon{
+    background-color: rgb(38,38,38);
+}
+.gray-desc{
+    background-color: rgb(38,38,38);
+}
+.apps{
+    display: flex;
+}
+.inputs{
+    display: flex;
+    width: 380px;
+    justify-content: space-evenly;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.email{
+    color: #b2b2b2;
+    display: flex;
+    width: 224px;
+    height: 40px; 
+    padding: 10px;
+    border-radius: 30px;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: rgb(38,38,38);
+    font-size: 14px;
+    border: 0;
+}
+.company{
+    color: #b2b2b2;
+    font-size: 14px;
+}
+.social-media{
+    display: flex;
+    justify-content: space-between;
+    width: 1155px;
+    margin-left: 200px;
+    margin-top: 60px;
+    padding-bottom: 50px;
+}
+.socials{
+    display: flex;
+    width: 150px;
+    justify-content: space-evenly;
+}
+@media (max-width: 1365px) {
+    .row-footer{
+        margin-left: 100px;
+    }
+    .footer-info{
+        margin-left: -60px;
+    }
+    .apps{
+        margin-left: -50px;
+    }
+    .social-media{
+        margin-left: 110px;
+    }
+}
+
+@media (max-width: 1300px) {
+    .row-footer{
+        margin-left: 135px;
+        width: 1000px;
+    }
+    .footer-info{
+        margin-left: 50px;
+        width: 1000px;
+    }
+    .apps{
+        margin-left: -175px;
+    }
+    .social-media{
+        margin-left: 25px;
+        width: 400px;
+    }
+}
+@media (max-width: 1130px) {
+    .row-footer{
+        margin-left: 75px;
+    }
+    .apps{
+        margin-left: -365px;
+    }
+}
+@media (max-width: 1075px) {
+    .row-footer{
+        margin-left: 60px;
+        width: 900px;
+    }
+    .apps{
+        margin-left: -430px;
+    }
+    .footer-info{
+        margin-left: -30px;
+        width: 100%;
+    }
+}
+@media (max-width: 1000px) {
+    .row-footer{
+        margin-left: 30px;
+    }
+    .apps{
+        margin-left: -495px;
+    }
+}
+@media (max-width: 930px) {
+    .row-footer{
+        margin-left: 0;
+    }
+    .footer-info{
+        margin-left: -45px;
+    }
+    .social-media{
+        margin-top: 10px;
+    }
+}
+@media (max-width: 900px) {
+    .row-footer{
+        flex-direction: column;
+        margin-left: 50px;
+        justify-content: space-evenly;
+        width: 300px;
+    }
+    .social-media{
+        margin-top: 50px;
+    }
+    .apple-gray, .google-gray, .app-gallery{
+        display: none;
+    }
+    .inputs{
+        margin-left: -420px;
+    }
+}
+
+@media (max-width: 700px) {
+    .footer-info{
+        flex-direction: column;
+        margin-left: 55px;
+        width: 300px;
+    }
+}
+@media (max-width: 460px) {
+    .apps{
+        flex-direction: column;
+        margin-left: 20px;
+    }
+    .inputs{
+        margin-left: -5px;
+    }
+    .footer-info{
+        margin-left: 20px;
+    }
+    .social-media{
+        flex-direction: column;
+        width: 215px;
+    }
+}
+@media (max-width: 400px) {
+    .inputs{
+        flex-direction: column;
+        width: 230px;
+    }
+    .app-gallerys{
+        margin-top: 20px;
+    }
+}
+
+

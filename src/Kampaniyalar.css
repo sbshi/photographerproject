@@ -1,0 +1,76 @@
+.App{
+    background-color: rgb(249,249,249);
+}
+.pages3{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 30px 0 0 180px;
+}
+.third{
+    background-image: url(./assets/tariffs-bg_lg.svg);
+    background-size: cover;
+    height: 330px;
+}
+.kampanii{
+    font-size: 60px;
+    font-weight: 700;
+    color: white;
+    margin-left: 180px;
+    margin-top: 100px;
+}
+.yaxsi-teklif{
+    font-size: 32px;
+    font-weight: 800;
+    margin: 50px 0 0 600px;
+}
+.cari-teklif{
+    font-size: 32px;
+    font-weight: 800;
+    margin: 100px 0 20px 180px;
+}
+.stranici{
+    margin: 20px 0 50px 170px;
+}
+@media (max-width: 1150px) {
+    .yaxsi-teklif{
+        margin-left: 450px;
+    }
+}
+@media (max-width: 900px) {
+    .yaxsi-teklif{
+        margin-left: 280px;
+    }
+}
+@media (max-width: 650px) {
+    .yaxsi-teklif{
+        margin-left: 200px;
+    }
+    .row3{
+        width: 0px;
+    }
+    .a{
+        display: none;
+    }
+    .pages3{
+        padding-left: 60px;
+    }
+    .kampanii{
+        margin-left: 50px;
+    }
+}
+@media (max-width: 500px) {
+    .stranici{
+        margin-left: 0;
+    }
+    .kampanii{
+        font-size: 50px;
+        margin-left: 20px;
+    }
+    .yaxsi-teklif{
+        margin-left: 90px;
+    }
+    .cari-teklif{
+        margin-left: 100px;
+    }
+}

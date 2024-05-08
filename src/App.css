@@ -1,0 +1,113 @@
+@import url('https://fonts.cdnfonts.com/css/lota-grotesque-alt-1');
+*{
+    font-family: 'Lota Grotesque', sans-serif;
+}
+.links{
+    display: flex;
+    font-weight: 700;
+    position: relative;
+    top: 60px;
+    left: 600px;
+    font-size: 14px;
+    justify-content: space-evenly;
+    width: 700px;
+}
+.a, .b, .c, .d, .e{
+    text-decoration: none; 
+    color: white;
+}
+.menubar{
+    display: none;
+}
+.menu-toggle {
+    display: none;
+    cursor: pointer;
+}
+.menu {
+    display: none;
+    position: absolute;
+    top: 50px;
+    left: 0;
+    width: 300px;
+    background-color: rgb(103, 33, 136);;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+    z-index: 999;
+  }
+  .menu a {
+    display: block;
+    margin-bottom: 10px;
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+    font-weight: 700; 
+  }
+  .menu.closed {
+    transform: translateX(-100%);
+  }
+.menu.open {
+    display: block;
+    display: flex;
+    flex-direction: column;
+    transform: translateX(0%);
+}
+@media (max-width: 1300px) {
+    .links{
+        left: 400px;
+    }
+}
+@media (max-width: 1100px) {
+    .links{
+        width: 450px;
+        left: 400px;
+    }
+}
+@media (max-width: 900px) {
+    .links{
+        width: 350px;
+        font-size: 12px;
+    }
+}
+@media (max-width: 800px) {
+    .links{
+        left: 300px;
+    }
+}
+@media (max-width: 700px) {
+    .links{
+        display: none;
+    }
+    .menu-toggle {
+        display: block;
+    }
+    .menu{
+        transform: translateX(-100%);
+        display: block;
+        display: flex;
+        flex-direction: column;
+        margin-top: 50px;
+    }
+    .menubar{
+        display: block;
+        position: relative;
+        top: 65px;
+        left: 500px;
+        width: 25px;
+    }
+}
+@media (max-width: 550px) {
+    .menubar{
+        left: 400px;
+    }
+}
+@media (max-width: 450px) {
+    .menubar{
+        left: 300px;
+    }
+}
+
+
+
+
+

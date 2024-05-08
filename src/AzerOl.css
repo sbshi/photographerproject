@@ -1,0 +1,316 @@
+.App{
+    background-color: rgb(247,247,247);
+}
+.second{
+    background-image: url(./assets/main-bg.svg);
+    background-size: cover;
+    height: 500px;
+}
+.pages2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 30px 0 0 180px;
+}
+.azerliol{
+    font-size: 60px;
+    width: 490px;
+    color: white;
+    font-weight: 700;
+}
+.azeli{
+    display: flex;
+    flex-direction: column;
+    color: white;
+    padding-top: 100px;
+    padding-left: 185px;
+}
+.azer-desc{
+    width: 330px;
+    font-size: 16px;
+    color: #b2b2b2;
+    margin-top: 10px;
+}
+.azer-row{
+    display: flex;
+    width: 570px;
+    justify-content: space-evenly;
+    margin-top: 20px;
+    margin-left: -15px;
+}
+.orange-azer{
+    background-image: url('./assets/orangeaze.png');
+    background-size: cover;
+    border: 1px solid #b2b2b2;
+    width: 260px;
+    height: 60px;
+    border-radius: 15px;
+}
+.prozrach-azer{
+    background-image: url('./assets/prozrach-aze.png');
+    background-size: cover;
+    border: 1px solid #b2b2b2;
+    width: 260px;
+    height: 60px;
+    border-radius: 15px;
+}
+.people{
+    display: flex;
+}
+.azerpeople{
+    margin-top: -139px;
+    margin-left: 150px;
+    width: 430px;
+    height: 325px; 
+}
+.niye-name{
+    font-weight: 800;
+    font-size: 32px;
+    margin-bottom: 20px;
+    margin-left: 220px;
+    margin-top: 80px;
+}
+.niye-row{
+    display: flex;
+    width: 1150px;
+    margin-left: 200px;
+    justify-content: space-evenly;
+}
+.teklif{
+    background-image: url('./assets/teklif.png');
+    background-size: cover;
+    border-radius: 15px;
+    width: 550px;
+    height: 370px;
+}
+.suret{
+    background-image: url('./assets/suret.png');
+    background-size: cover;
+    border-radius: 15px;
+    width: 550px;
+    height: 240px;
+}
+.lider{
+    display: flex;
+    flex-direction: column;
+    padding-top: 120px;
+    padding-left: 180px;
+}
+.lider-desc{
+    color: #b2b2b2;
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+.lider-name{
+    font-size: 32px;
+    margin-bottom: 45px;
+    font-weight: 800;
+}
+.abuneci{
+    display: flex;
+    padding-left: 180px;
+    justify-content: space-evenly;
+}
+.abuneci-col{
+    display: flex;
+    flex-direction: column;
+    padding-top: 150px;
+}
+.abune-name{
+    font-size: 32px;
+    font-weight: 800;
+    width: 300px;
+}
+.musteri, .abune-desc{
+    font-size: 14px;
+    color: #b2b2b2;
+}
+.musteri{
+    margin-bottom: 10px;
+}
+.abune-desc{
+    margin-top: 30px;
+}
+.shop{
+    margin-left: 20px;
+    width: 648px;
+    height: 435px; 
+}
+.statistics{
+    display: none;
+}
+.statrow{
+    display: none;
+}
+
+@media (max-width: 1350px) {
+    .niye-row{
+        margin-left: 100px;
+    }
+    .lider{
+        padding-left: 75px;
+    }
+}
+@media (max-width: 1260px) {
+    .azerpeople{
+        margin-left: 33px;
+    }
+    .niye{
+        margin-left: -70px;
+    }
+    .statistics{
+        display: block;
+    }
+    .liderlik{
+        display: none;
+    }
+    .abuneci{
+        padding-left: 10px;
+    }
+}
+@media (max-width: 1170px) {
+    .azeli{
+        padding-left: 75px;
+    }
+    .niye-row{
+        flex-direction: column;
+        width: 500px;
+        margin-left: 400px;
+    }
+    .suret{
+        margin-top: 20px;
+    }
+    .niye-name{
+        margin-left: 550px;
+    }
+}
+@media (max-width: 1050px) {
+    .azerpeople{
+        margin-left: -100px;
+        z-index: 0;
+    }
+    .azer-row{
+        z-index: 1;
+    }
+    .shop{
+        width: 400px;
+        height: 300px;
+        margin-top: 50px;
+    }
+}
+@media (max-width: 890px) {
+    .niye{
+        margin-left: -210px;
+    }
+    .pages{
+        padding-left: 35px;
+    }
+    .azerpeople{
+        margin-left: -185px;
+    }
+}
+@media (max-width: 790px) {
+    .azer-row{
+        flex-direction: column;
+    }
+    .statistics{
+        display: none;
+    }
+    .statrow{
+        display: block;
+    }
+    .niye{
+        margin-left: -280px;
+    }
+    .azerliol, .azer-desc{
+        z-index: 1;
+    }
+}
+@media (max-width: 700px) {
+    .shop{
+        width: 300px;
+        height: 200px;
+        margin-top: 100px;
+    }
+    .teklif{
+        width: 436px;
+        height: 283px;
+    }
+    .suret{
+        width: 436px;
+        height: 180px;
+    }
+    .a, .b, .c, .d, .e{
+        display: none;
+    }
+    .row2{
+        width: 0px;
+    }
+    .azerpeople{
+        margin-top: -145px;
+    }
+    .pages2{
+        padding-left: 60px;
+    }
+}
+@media (max-width: 600px) {
+    .shop{
+        margin-left: 50px;
+        margin-top: 20px;
+    }
+    .azerpeople{
+        margin-left: -250px;
+        margin-top: -60px;
+        width: 320px;
+        height: 238px;
+    }
+    .azer-row{
+        width: 360px;
+    }
+    .niye-row{
+        width: 430px;
+    }
+    .niye{
+        margin-left: -320px;
+    }
+    .abuneci{
+        display: flex;
+        flex-direction: column;
+    }
+    .azerliol{
+        width: 350px;
+    }
+}
+@media (max-width: 500px) {
+    .teklif{
+        width: 340px;
+        height: 222px;
+    }
+    .suret{
+        width: 340px;
+        height: 150px;
+    }
+    .niye-name{
+        margin-left: 465px;
+    }
+    .niye-row{
+        width: 300px;
+    }
+}
+@media (max-width: 420px) {
+    .azeli{
+        padding-left: 30px;
+    }
+    .niye{
+        margin-left: -360px;
+    }
+    .azerliol{
+        font-size: 50px;
+        width: 300px;
+    }
+}
+@media (max-width: 380px) {
+    .niye{
+        margin-left: -390px;
+    }
+}
